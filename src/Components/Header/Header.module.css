@@ -1,0 +1,62 @@
+.header {
+  height: 68px;
+  width: 100%;
+  padding: 0 2rem;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: transparent;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.7) 10%,transparent);
+
+
+  position: fixed;
+}
+
+.headerLeft, .headerRight {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header svg path {
+  fill: #ddd;
+}
+
+.header svg {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.logo {
+  height: 2.3rem;
+  cursor: pointer;
+}
+
+.notification:hover, .notification:focus {
+  transform: scale(1.1);
+}
+
+.profileDropdownMenu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profilePic {
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  overflow: hidden;
+  align-items: center;
+}
+.profilePic img {
+  height: 38px;
+}
+
+.profileDropdownMenu:hover svg {
+  transform: rotate(180deg);
+}

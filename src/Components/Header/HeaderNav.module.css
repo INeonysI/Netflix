@@ -1,0 +1,20 @@
+.nav { 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  
+}
+
+.nav a {
+  color: #e5e5e5;
+  transition: .2s;
+}
+
+.nav a:hover {
+  color: #b3b3b3;
+}
+
+.nav a:global(.active) {
+  color: #fff;
+}
